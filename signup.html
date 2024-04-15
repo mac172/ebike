@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+           body {
+      font-family: sans-serif;
+    }
+
+    form {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #000;
+}
+    </style>
+</head>
+<body>
+      <form>
+    <h2>Sign Up</h2>
+
+    <input type="text" name="name" placeholder="Your Name" id="username">
+    <input type="email" name="email" placeholder="Your Email" id="useremail">
+    <input type="password" name="password" placeholder="Password" id="userpasswd">
+    <input type="password" name="password" placeholder="Confirm Password" id="confirmpasswd">
+
+    <button type="submit" id="btn">Sign Up</button>
+  </form>
+
+  <div class="login-link">
+    <a href="/login.html">I already have an account.</a>
+  </div>
+    <script type="module" src="js/signup.js"></script>
+
+</body>
+</html>
